@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+    background-color: #e4f0dd ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 05px;
+    text-align: center;
+    font-family:Brush, cursive;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+section {
+
+    align-items:flex-start;
+    background-color:#e4f0dd;
+    color: black;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+}
+header{
+    display:flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-around;
+    background-color: #e4f0dd;
+    color: black;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+}
+
+.texto{
+    color: black;
+    background-color: #65a9d1;
+    border-radius: 15%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a{
+    color:#e4f0dd;
+    text-decoration: none;
+}
+
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #65a9d1;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.caixa:checked ~ .lista{
+    display: block;
+}
+
+#menu{
+    display: none;
+}
+
+.lista-item{
+    padding: 12px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .lista{
+        right: 8%;
+        width: 14%;
+        padding: 20px;
+        text-align: start;
+    }
+    .lista-item:hover{
+        background-color:#e4f0dd;
+    }
+}
+
+.btn-notas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #65a9d1;
+    color: black;
+    border: 0px solid;
+    border-radius: 15%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.notasati {
+    .notas h2 {
+        margin-bottom: 15px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #0077cc;
+        color: white;
+    }
+    
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    
+}
+
+footer{
+    background-color: #e4f0dd;
+    text-align: left;
+    font-family: Arial, sans-serif;
+
+    .footer-section {
+        flex: 1 1 300px;
+        padding: 20px;
+      }
+      
+      .footer-section h3 {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid #bdc3c7;
+        font-size: 0.9em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+}
+
+ nome materia{
+    margin: 0;
+    padding: 10px;
+ }
